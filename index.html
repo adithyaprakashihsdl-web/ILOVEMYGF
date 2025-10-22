@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy 1 Year 💖</title>
+<style>
+  body {
+    margin:0; padding:0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #fff5f9, #ffd6ea);
+    color: #5a004f;
+    text-align: center;
+    overflow-x: hidden;
+  }
+  h1 {margin-top:30px; font-size:2.5em; color:#ff1a75;}
+  .envelope {
+    width:200px; height:120px; margin:50px auto; position:relative;
+    background:#ff80aa; border-radius:10px; cursor:pointer;
+    transition: transform 0.3s ease;
+  }
+  .envelope:hover {transform: scale(1.05);}
+  .envelope::before, .envelope::after {
+    content:''; position:absolute; border-style: solid;
+  }
+  .envelope::before {
+    border-width:0 100px 60px 100px; border-color:transparent transparent #ffb3c6 transparent;
+    top:0; left:0;
+  }
+  .envelope::after {
+    border-width:60px 100px 0 100px; border-color:#ff99bb transparent transparent transparent;
+    bottom:0; left:0;
+  }
+  .letter {
+    max-width:700px; margin:40px auto; padding:20px;
+    background:#fff0f5; border-radius:15px;
+    display:none; box-shadow:0 0 15px rgba(0,0,0,0.1);
+    line-height:1.6;
+    position:relative;
+  }
+  .show {display:block; animation: fadeIn 1.5s ease-in-out;}
+  @keyframes fadeIn {
+    from {opacity:0; transform: translateY(30px);}
+    to {opacity:1; transform: translateY(0);}
+  }
+  .spotify-section {
+    margin-top: 20px;
+  }
+  .spotify-title {
+    font-size: 1.2em;
+    color: #ff1a75;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+  .spotify-iframe {
+    display:block;
+    margin: 18px auto 0 auto;
+    border-radius:12px;
+    width:100%;
+    max-width: 400px;
+    height:352px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.08);
+    border: none;
+  }
+  .timeline-button {
+    margin-top:30px; padding:15px 30px;
+    background:#ff1a75; color:white; border:none;
+    border-radius:12px; font-size:1.1em; cursor:pointer;
+    transition: transform 0.2s ease;
+    text-decoration:none;
+    display:inline-block;
+  }
+  .timeline-button:hover {transform: scale(1.05);}
+  /* Animated hearts */
+  .heart {
+    width: 20px; height: 20px;
+    position: fixed;
+    background: red;
+    transform: rotate(45deg);
+    left: 50%;
+    top: 50%;
+    animation: float 5s linear infinite;
+    z-index:9999;
+  }
+  .heart::before, .heart::after {
+    content: ""; position: absolute; width: 20px; height: 20px;
+    background: red; border-radius: 50%;
+  }
+  .heart::before {top:-10px; left:0;}
+  .heart::after {left:-10px; top:0;}
+  @keyframes float {
+    0% { transform: translate(0,0) rotate(45deg);}
+    100% { transform: translate(200px,-600px) rotate(45deg);}
+  }
+  /* Password overlay */
+  #passwordOverlay {
+    position: fixed; top:0; left:0; width:100%; height:100%;
+    background:#ffcce0; z-index:10000; display:flex;
+    flex-direction:column; justify-content:center; align-items:center;
+  }
+  #passwordOverlay input {
+    padding:10px; font-size:1.2em; border-radius:8px; border:1px solid #ff99bb;
+    margin-top:15px;
+    text-align:center;
+  }
+  #passwordOverlay button {
+    margin-top:15px; padding:10px 20px; font-size:1.1em;
+    border:none; border-radius:8px; background:#ff1a75; color:white; cursor:pointer;
+  }
+</style>
+</head>
+<body>
+
+<div id="passwordOverlay">
+  <h2>Enter the date I asked you out 💖</h2>
+  <input type="password" id="passInput" placeholder="DDMMYYYY">
+  <button onclick="checkPassword()">Enter</button>
+  <p id="error" style="color:red; margin-top:10px;"></p>
+</div>
+
+<h1>💌 Happy 1 Year 💌</h1>
+
+<div class="envelope" onclick="openLetter()"></div>
+
+<div class="letter" id="letter">
+  <p>
+    HAPPPYYYYY 1 YEARRRR MY LOVEEEEEEEEEEEEEEEE 💖<br><br>
+    ohmygod i can’t believe it we made it WE REACHED THE 1 YEAR MARK SWEEETIEE!!!!!!!!! i’m so lucky omg. this has been the happiest year of my whole life. the most memorable 1/17th of my life ever. This has been such an incredible journey and in so lucky to have you with me throughout it. Through the ups, through the downs, we made it. WE DID IT BABYYYYY!!!!!! ITS SO HARD TO FIND WORDS OHMYGODDDDDF.<br><br>
+    i love you i love you i love you i love you i love you i love you i love you i love you i love you i love you I LOVEEEEE YOUHU!!!!!!!!!! My sweet girl i love you so much. thank you for all that you’ve done for me throughout this year. thank you for all the ways you’ve changed me and made me a better person. thank you for being mine. you’ve always been there for me. you take care of me you love me you’re my support system you’re my whole wide world. im genuinely finding it difficult to find words baby i’m so so so sorry i’m so overwhelmed i genuinely cannot find words. im so sorry i cannot find the words baby but i genuinely don’t know how to say everything u want to say all the words are in my heart. you are the love of my life sweetie. from the beginning those shy little kids at mcdonalds telling each other they like each other OMG THAT WAY SO CUTE. the table banging the cute little walk. the way we first held hands  after ihsmoon the way we awkwardly hugged. wow. the always laughing non stop banter the jokes the happiness the rainbows and butterflies. to the arguments, the fights, the screaming, the really really really really extremely low points. the almost ending it, to the changes, the peace, the happiness, the calm. everything. we’ve. been. through. AND WE MADE IT. fuck i’m crying i can’t believe we actually did it. i mean i can but i’m just so excited about it. we made it. through all those stages not once have i questioned my love for you. i love you more than i ever have my sweet girl. you genuinely are my everything. the part of me that was always missing, the one i cry to, my happiness, my home, my love, my whole entire universe. my everything. in so sorry in so overwhelmed i cannot find the worlds at all. the most beautiful girl in the whole wide world. my girl ☹☹☹☹. you will forever be my girl no matter what happens and i will always love you. you have a place in my heart that no one can take. and that place is my whole heart. i’m so so so super grateful to have been on this journey with you and to be able to achieve this milestone and i hope we have many more to come. i love you my sweet girl ☹☹☹☹☹☹
+  </p>
+  <div class="spotify-section">
+    <div class="spotify-title">Songs that remind me of you</div>
+    <!-- Baby I Need You -->
+    <iframe data-testid="embed-iframe" class="spotify-iframe"
+      style="border-radius:12px"
+      src="https://open.spotify.com/embed/track/3isYA9kk94xHCigQBnHURo?utm_source=generator"
+      width="100%" height="352" frameBorder="0" allowfullscreen=""
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <!-- Dream Girl -->
+    <iframe data-testid="embed-iframe" class="spotify-iframe"
+      style="border-radius:12px"
+      src="https://open.spotify.com/embed/track/3Z6cltU0OfbUdSZtZlzKPL?utm_source=generator"
+      width="100%" height="352" frameBorder="0" allowfullscreen=""
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <!-- Good Looking -->
+    <iframe data-testid="embed-iframe" class="spotify-iframe"
+      style="border-radius:12px"
+      src="https://open.spotify.com/embed/track/026wpXkLAjImiWOzzcJBHj?utm_source=generator"
+      width="100%" height="352" frameBorder="0" allowfullscreen=""
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+  <!-- Timeline Button -->
+  <a href="https://www.instagram.com/thisaccountisonlytotalktotanya?igsh=MXh3cW9janU5cmk2eg==" target="_blank" class="timeline-button">💖 Our Timeline 💖</a>
+</div>
+
+<script>
+  function checkPassword(){
+    const input = document.getElementById('passInput').value;
+    if(input === '29112024'){
+      document.getElementById('passwordOverlay').style.display='none';
+      spawnHearts();
+    } else {
+      document.getElementById('error').innerText = 'Wrong password! Try again 💔';
+    }
+  }
+
+  function openLetter() {
+    const letter = document.getElementById('letter');
+    letter.classList.add('show');
+    window.scrollTo({ top: letter.offsetTop, behavior: 'smooth' });
+    spawnConfetti();
+  }
+
+  // Hearts generator
+  function spawnHearts(){
+    for(let i=0;i<30;i++){
+      const heart = document.createElement('div');
+      heart.className='heart';
+      heart.style.left=Math.random()*100+'vw';
+      heart.style.animationDuration= (3+Math.random()*3)+'s';
+      document.body.appendChild(heart);
+      setTimeout(()=>heart.remove(),8000);
+    }
+  }
+
+  // Confetti effect
+  function spawnConfetti(){
+    for(let i=0;i<100;i++){
+      const confetti = document.createElement('div');
+      confetti.style.width='8px'; confetti.style.height='8px';
+      confetti.style.background=['#ff1a75','#ff80aa','#ffccdd','#ffffff'][Math.floor(Math.random()*4)];
+      confetti.style.position='fixed';
+      confetti.style.top='0';
+      confetti.style.left=Math.random()*100+'vw';
+      confetti.style.opacity=1;
+      confetti.style.zIndex=9999;
+      document.body.appendChild(confetti);
+      // animate
+      let top = 0;
+      const fall = setInterval(()=>{
+        top+=5+Math.random()*5;
+        confetti.style.top=top+'px';
+        if(top>window.innerHeight){ confetti.remove(); clearInterval(fall); }
+      },20);
+    }
+  }
+</script>
+
+</body>
+</html>
